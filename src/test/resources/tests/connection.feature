@@ -1,5 +1,6 @@
 Feature: Connect to another MS
 
+  @Connection
   Scenario: Try to connect to another MS
     Given I want to read a message
     When I send the request

@@ -56,7 +56,7 @@ public class ConnectionWithCucumber {
     }
 
     private void createMessageStub() {
-        wireMockRule.stubFor(g  et(urlEqualTo("/message"))
+        wireMockRule.stubFor(get(urlEqualTo("/message"))
                 .withHeader("Accept", equalTo("application/json"))
                 .willReturn(aResponse()
                         .withStatus(200)

@@ -34,6 +34,11 @@ dependencies {
 	testCompile "com.github.tomakehurst:wiremock-jre8:2.27.0"
 
 	compile group: 'io.cucumber', name: 'cucumber-spring', version: '6.4.0'
+	compile group: 'io.cucumber', name: 'cucumber-junit-platform-engine', version: '6.4.0'
+
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-contract-stub-runner', version: '2.2.4.RELEASE'
+
+
 
 }
 
